@@ -1,0 +1,11 @@
+.portfolio-container {
+  padding: 30px 0;
+}
+
+.project-list {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-weight: bold;
+  color: var(--sec-button);
+}

@@ -1,0 +1,35 @@
+.header {
+  padding: 30px 90px;
+  background: var(--background-color);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo img {
+  max-height: 50px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav ul li a {
+  font-weight: bold;
+  color: var(--title-color);
+  font-size: 1.4em;
+  font-style: italic;
+  transition: 0.2s ease-in;
+}
+
+nav ul li a:hover {
+  color: var(--sec-button);
+}

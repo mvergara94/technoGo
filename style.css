@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&family=Poppins:wght@300;400;600;700&family=Righteous&display=swap');
+@import url('./styles/header.css');
+@import url('./styles/home.css');
+@import url('./styles/services.css');
+@import url('./styles/portfolio.css');
+@import url('./styles/footer.css');
+
+:root {
+  --title-font: 'Righteous', cursive;
+  --text-font: 'Poppins', sans-serif;
+  --button-font: 'Righteous', cursive;
+
+  --text-color: #646464;
+  --button-color: #46adfa;
+  --title-color: black;
+  --background-color: #f1f2fb;
+  --shadow-color: #292d32;
+  --sec-button: orange;
+  --sec-background-color: #e9eff9;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--text-font);
+  background: var(--sec-background-color);
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+/* Shared */
+
+.section {
+  text-align: center;
+  padding: 50px 200px;
+}
+
+.sub-title-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sub-title {
+  font-family: var(--title-font);
+  font-size: 2.5em;
+}
+
+.sub-text {
+  color: var(--text-color);
+  font-weight: lighter;
+}

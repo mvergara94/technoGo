@@ -1,0 +1,18 @@
+.footer {
+  text-align: center;
+  padding: 50px 200px;
+  display: flex;
+  justify-content: space-between;
+  background: var(--sec-button);
+  color: white;
+  font-size: 1.25em;
+}
+
+.footer-copyright p span {
+  font-weight: bold;
+}
+
+.social-list {
+  display: flex;
+  gap: 20px;
+}
